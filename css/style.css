@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+}
+
+/* Grid Layout
+--------------------- */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+	border: 1px solid black;
+}
+
+/* generic section
+--------------------- */
+body {
+	padding: 0;
+	margin: 0;
+}
+
+nav:before, nav:after, section:before, section:after, article:before, article:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+nav {
+	background-color: whitesmoke;
+	width: 100%;
+	position: fixed;
+	z-index: 2; 
+	top: 0;
+	left: 0;
+	height: 120px;
+	box-sizing: border-box;
+}
+
+nav img:after {
+	content: "- BONGZrUS";
+	display: inline-block;
+	font-size: 20px;
+	color: pink;
+}
+
+header {
+	background-color: red;
+	width: 100%;
+	height: 400px;
+	box-sizing: border-box;
+	padding: 10px
+	margin-top: 120px;
+	text-align: center; 
+}
+
+header h1 {
+	margin-top: 120px;
+}
+
+main {
+	background-color: orange;
+	width: 100%;
+	height: 600px;
+	box-sizing: border-box;
+	padding: 10px
+}
+
+.services {
+	background-color: purple;
+	width: 100%;
+}
+
+footer {
+	background-color: yellow;
+	width: 100%;
+	height: 200px;
+	box-sizing: border-box;
+	padding: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
